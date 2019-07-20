@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MobileActivity">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="157dp"
+        android:layout_height="118dp"
+        android:src="@drawable/ic_nature_people_black_24dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number"
+        android:layout_below="@+id/imageview"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:hint="Enter the mobile number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/otp"
+        android:layout_below="@+id/phone_number"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:hint="OTP"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send"
+        android:layout_below="@+id/otp"
+        android:layout_marginTop="20dp"
+        android:text="SEND"
+        android:textSize="25sp"
+        android:onClick="send"/>
+
+</RelativeLayout>

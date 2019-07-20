@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your name"
+        android:textColor="#000000"
+        android:id="@+id/enter_your_name"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/your_name"
+        android:layout_below="@+id/enter_your_name"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/cancel"
+    android:text="CANCEL"
+    android:textColor="#25d365"
+        android:textSize="20sp"
+    android:layout_below="@+id/your_name"
+    android:layout_toStartOf="@+id/save"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:text="SAVE"
+        android:textColor="#25d365"
+        android:textSize="20sp"
+        android:layout_below="@+id/your_name"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

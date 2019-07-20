@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CheckInternetConnection</string>
+    <string name="network_text">check network connection</string>
+    <string name="wifi">Connected to Wifi</string>
+    <string name="mobile_data">Mobile data</string>
+    <string name="no_connection">No Connection</string>
+</resources>
